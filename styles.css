@@ -1,0 +1,58 @@
+/* 
+   Stopwatch Styles
+   
+   Key components:
+   - Body: Sets the overall page layout and background
+   - Stopwatch container: Centers the stopwatch on the page
+   - Display: Styles the time display
+   - Control buttons: Defines the appearance of start, stop, and reset buttons
+
+   Feel free to modify these styles to customize the look of your stopwatch!
+*/
+
+/* styles.css */
+
+body {
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f0f0f0;
+  font-family: Arial, sans-serif;
+}
+
+.stopwatch {
+  text-align: center;
+  background: #fff;
+  padding: 2rem;
+  border-radius: 1rem;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+}
+
+#display {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.controls .btn {
+  padding: 0.5rem 1rem;
+  margin: 0 0.5rem;
+  font-size: 1rem;
+  border: none;
+  border-radius: 0.5rem;
+  cursor: pointer;
+}
+
+.start {
+  background-color: #4caf50;
+  color: white;
+}
+.stop {
+  background-color: #f44336;
+  color: white;
+}
+.reset {
+  background-color: #2196f3;
+  color: white;
+}
